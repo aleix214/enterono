@@ -1,0 +1,15 @@
+# coding: utf-8
+
+num1 = input("Dime un divisor: ")
+num2 = input("Dime un dividendo: ")
+
+resultado=num1%num2
+
+if resultado==1:
+	print "Es entero"
+else:
+	print "No es entero"
+
+
+
+
